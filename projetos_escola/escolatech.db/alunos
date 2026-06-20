@@ -1,0 +1,15 @@
+CREATE TABLE alunos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    sobrenome TEXT NOT NULL,
+    idade INTEGER,
+    curso TEXT
+);
+
+
+
+
+INSERT INTO alunos (nome, sobrenome, idade, curso) VALUES ('Lucas', 'Oliveira', 19, 'Automação');
+
+
+SELECT * FROM alunos;
